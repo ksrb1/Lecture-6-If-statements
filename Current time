@@ -1,0 +1,20 @@
+int currentTime{};
+	    
+	    cout << "what time is it right now?" << endl;
+	    
+	    cin >> currentTime;
+	    
+	    if (currentTime < 12)
+	    cout << "Good morning!" << endl;
+	    else if (currentTime < 18) {
+	        cout << "Good afternoon" << endl;   
+	    }
+	    else if (currentTime < 21) {
+	        cout << "Good evening" << endl;
+	    }
+	    else if (currentTime <= 24) {
+	        cout << "Good night" << endl;
+	    }
+	    else {
+	        cout << "earth time please" << endl;
+	    }
