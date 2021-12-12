@@ -1,0 +1,31 @@
+int shapeSides{};
+
+  cout << "how many sides does your shape have?" << endl;
+  cin >> shapeSides;
+
+  if (shapeSides == 3) {
+    cout << "This shape is a triangle" << endl;
+  }else if (shapeSides == 4) {
+    cout << "shape is a square" << endl;
+  }
+  else if (shapeSides == 5) {
+    cout << "This shape is a pentagon" << endl;
+  }
+  else if (shapeSides == 6) {
+    cout << "This shape is a hexagon" << endl;
+  }
+  else if (shapeSides == 7) {
+    cout << "This shape is a heptagon or otherwise known as septagon" << endl;
+  }
+  else if (shapeSides == 8) {
+    cout << "This shape is a octagon" << endl;
+  }
+  else if (shapeSides == 9) {
+    cout << "This shape is a nonagon" << endl;
+  }
+  else if (shapeSides == 10) {
+    cout << "This shape is a decagon" << endl;
+  }
+  else {
+    cout << "This shape either not a shape or it cannot be identified with current limitations" << endl;
+  }
