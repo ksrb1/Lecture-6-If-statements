@@ -1,0 +1,18 @@
+int userInput{};
+
+	cout << "Enter a number to check if it's even or odd: ";
+	cin >> userInput;
+	while (cin.fail()) {
+		cout << "Invalid input.\nPlease enter a input." << endl;
+		cin.clear();
+		cin.ignore(1000, '\n');
+		cin >> userInput;
+
+	}
+
+	if ((userInput % 2) == 0) {
+		cout << userInput << " is even" << endl;
+	}
+	else {
+		cout << userInput << " is odd" << endl;
+	}
